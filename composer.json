@@ -20,19 +20,6 @@
             "Barryvdh\\DomPDF\\": "src"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.8-dev"
-        },
-        "laravel": {
-            "providers": [
-                "Barryvdh\\DomPDF\\ServiceProvider"
-            ],
-            "aliases": {
-                "PDF": "Barryvdh\\DomPDF\\Facade"
-            }
-        }
-    },
     "repositories":[
         {
             "type": "vcs",
