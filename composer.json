@@ -38,7 +38,6 @@
             "type": "vcs",
             "url": "https://github.com/rjpl92/dompdf"
         }
-    ],
-    "minimum-stability": "dev"
+    ]
 
 }
