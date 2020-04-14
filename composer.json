@@ -29,14 +29,6 @@
             }
         }
     },
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "optimize-autoloader": true,
-        "platform": {"php": "7.0.13"},
-        "github.com": "bec2e071fcae70e1e722f64cd82eaf3a5e1a5e78",
-        "github-oauth": {"github.com": "bec2e071fcae70e1e722f64cd82eaf3a5e1a5e78"}
-    },
     "repositories":[
         {
             "type": "vcs",
