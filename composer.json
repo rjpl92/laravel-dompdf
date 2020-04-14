@@ -14,10 +14,19 @@
         "illuminate/support": "^5.5|^6|^7",
         "dompdf/dompdf": "dev-master"
     },
-
     "autoload": {
         "psr-4": {
             "Barryvdh\\DomPDF\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\DomPDF\\ServiceProvider"
+            ],
+            "aliases": {
+                "PDF": "Barryvdh\\DomPDF\\Facade"
+            }
         }
     },
     "repositories":[
